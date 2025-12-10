@@ -7,6 +7,7 @@ C14220092-Amos Gihon
 Analisis Nilai Terbaik (Value-for-Money) Universitas
 
 I. Tujuan Analisis
+
 Tujuan utama dari pengolahan data ini adalah untuk mengidentifikasi universitas yang menawarkan Nilai Terbaik (Value-for-Money) berdasarkan dua kriteria utama:
 
 Biaya Kuliah (Tuition Fee): Diklasifikasikan sebagai High (di atas $10.000) atau Low (di bawah $10.000).
@@ -16,6 +17,7 @@ Tingkat Kelulusan (Graduation Rate): Tingkat kelulusan yang tinggi di setiap kel
 Analisis ini bertujuan untuk menemukan universitas dengan Graduation Rate tertinggi di rentang biaya termurah dan termahal dari masing-masing kategori (High dan Low).
 
 II. Metodologi Pengolahan Data (KNIME Workflow)
+
 Pengolahan data dilakukan menggunakan platform KNIME Analytics, melalui langkah-langkah sebagai berikut:
 
 1. Pre-processing dan Klasifikasi Biaya
@@ -34,6 +36,7 @@ Tujuan: Membuat kriteria kategorisasi biaya yang jelas sesuai definisi "High" da
 (harga kiri untuk in-state-tuition)(harga kanan untuk out-of state tuition)
 
 2. Identifikasi Nilai Terbaik (Value-for-Money)
+
 Proses ini dibagi menjadi empat skenario spesifik untuk mengidentifikasi universitas terbaik di masing-masing sub-kategori:
 
 Node Utama: Kombinasi Filter Node, Sorter, dan Row Filter.
@@ -47,6 +50,7 @@ Sorting: Data diurutkan secara Descending (Tertinggi ke Terendah) berdasarkan ko
 Top-N Selection: Dari hasil sorting tersebut, nilai Graduation Rate tertinggi dipilih sebagai "Nilai Terbaik" di rentang biaya tersebut.
 
 3. Analisis Biaya Rata-Rata per Negara Bagian
+
 Node Utama: GroupBy
 
 Aksi: Data dikelompokkan berdasarkan kolom State, dan kemudian fungsi agregasi Mean (rata-rata) diterapkan pada kolom in-state tuition dan out-of-state tuition.
@@ -54,6 +58,7 @@ Aksi: Data dikelompokkan berdasarkan kolom State, dan kemudian fungsi agregasi M
 Tujuan: Untuk mendapatkan biaya kuliah rata-rata per negara bagian. Hasil ini kemudian divisualisasikan menggunakan Bar Chart.
 
 4. Analisis Proporsi Jenis Universitas
+
 Node Utama: GroupBy (dengan Count) dan Pie Chart
 
 Aksi: Data dikelompokkan berdasarkan jenis universitas (Public (1)/ Private (2)), dan dihitung jumlah (Count) masing-masing kelompok.
