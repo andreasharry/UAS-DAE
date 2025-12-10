@@ -4,10 +4,9 @@ C14220041-Andreas Harry
 C14220092-Amos Gihon
 Analisis Nilai Terbaik (Value-for-Money) Universitas
 
-Tujuan dari pengolahan data ini adalah untuk mencari universitas yang paling worth it didapatkan
-untuk harga atas diatas 10.000 kami golongan ke high dan dibawah 10.000 kami golongkan ke low
+Tujuan dari pengolahan data ini adalah untuk mencari universitas yang paling worth it didapatkan dari harga high maupun low dengan gradution rate yang tertinggi di range tersebut
 
-Ini merupakan perhitungan universitas low dan high berdasarkan tuition fee
+Ini merupakan perhitungan universitas berdasarkan tuition fee diatas 10.000 tergolong high dan tuition fee dibawah 10.000
 <img width="801" height="197" alt="image" src="https://github.com/user-attachments/assets/14d2c40a-58de-49a0-8b7d-99d33e7609a9" />
 
 (harga kiri untuk in-state-tuition)(harga kanan untuk out-of state tuition)
