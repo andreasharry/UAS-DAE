@@ -16,3 +16,5 @@ low:
 1.Missouri Southern State Collage 1920 3840 (range harga low termurah dengan graduation rate tertinggi)
 2.Cazenovia Collage 9384 9384 (range harga low termahal dengan graduation rate tertinggi)
 
+<img width="1389" height="805" alt="image" src="https://github.com/user-attachments/assets/bc4e98dd-e37f-49b0-b930-da25745fd8d8" />
+
