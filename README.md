@@ -6,9 +6,16 @@ C14220092-Amos Gihon
 
 Analisis Nilai Terbaik (Value-for-Money) Universitas
 
-Tujuan dari pengolahan data ini adalah untuk mencari universitas yang paling worth it didapatkan dari harga high maupun low dengan gradution rate yang tertinggi di range tersebut
+I. Tujuan Analisis
+Tujuan utama dari pengolahan data ini adalah untuk mengidentifikasi universitas yang menawarkan Nilai Terbaik (Value-for-Money) berdasarkan dua kriteria utama:
 
-Ini merupakan perhitungan universitas berdasarkan tuition fee diatas 10.000 tergolong high dan tuition fee dibawah 10.000 menggunakan "rule engine"
+Biaya Kuliah (Tuition Fee): Diklasifikasikan sebagai High (di atas $10.000) atau Low (di bawah $10.000).
+
+Tingkat Kelulusan (Graduation Rate): Tingkat kelulusan yang tinggi di setiap kelas biaya menunjukkan kualitas dan keberhasilan institusi.
+
+Analisis ini bertujuan untuk menemukan universitas dengan Graduation Rate tertinggi di rentang biaya termurah dan termahal dari masing-masing kategori (High dan Low).
+
+II. Metodologi Pengolahan Data (KNIME Workflow)Pengolahan data dilakukan menggunakan platform KNIME Analytics, melalui langkah-langkah sebagai berikut:1. Pre-processing dan Klasifikasi BiayaNode Utama: Rule EngineAksi: Kolom biaya kuliah (in-state tuition dan out-of-state tuition) diklasifikasikan ke dalam dua kategori baru:HIGH: Jika biaya kuliah $\geq \$10.000$.LOW: Jika biaya kuliah $<\$10.000$.Tujuan: Membuat kriteria kategorisasi biaya yang jelas sesuai definisi "High" dan "Low" untuk memfasilitasi pencarian value-for-money.
 
 <img width="801" height="197" alt="image" src="https://github.com/user-attachments/assets/14d2c40a-58de-49a0-8b7d-99d33e7609a9" />
 
