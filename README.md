@@ -34,6 +34,9 @@ low:
 
 <img width="1845" height="681" alt="Screenshot 2025-12-10 204310" src="https://github.com/user-attachments/assets/75b6d40a-34ad-4e55-9602-8a15444938cb" />
 
+<img width="1845" height="359" alt="image" src="https://github.com/user-attachments/assets/72c2fd82-805c-4974-b2ca-904a7e809b89" />
+
+
 
 
 
