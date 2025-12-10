@@ -19,14 +19,23 @@ high:
 1.Siena Collage 10.800 10.800 (range harga high termurah dengan graduation rate tertinggi)
 
 2.Amherst College 19.760 19.760 (range harga high termahal dengan graduation rate tertinggi)
-<img width="1389" height="805" alt="image" src="https://github.com/user-attachments/assets/bc4e98dd-e37f-49b0-b930-da25745fd8d8" />
+<img width="1846" height="343" alt="Screenshot 2025-12-10 204623" src="https://github.com/user-attachments/assets/1dd10e27-1e76-4c42-8e58-95dbae04061f" />
+<img width="1847" height="644" alt="Screenshot 2025-12-10 204326" src="https://github.com/user-attachments/assets/8a8d415d-6ff3-4f2a-87cf-57f52c45fbd5" />
+
+
 
 low:
 
 1.Missouri Southern State Collage 1920 3840 (range harga low termurah dengan graduation rate tertinggi)
 
 2.Cazenovia Collage 9384 9384 (range harga low termahal dengan graduation rate tertinggi)
-<img width="1380" height="775" alt="image" src="https://github.com/user-attachments/assets/c9f6c64f-1297-45f6-ab40-6ec8be1fc718" />
+<img width="1846" height="340" alt="Screenshot 2025-12-10 204616" src="https://github.com/user-attachments/assets/a1953e16-c570-492c-ba13-a1644d5ecec4" />
+<img width="1845" height="632" alt="Screenshot 2025-12-10 204341" src="https://github.com/user-attachments/assets/63f76180-277c-429b-8a04-c56ef1f98d0f" />
+
+<img width="1845" height="681" alt="Screenshot 2025-12-10 204310" src="https://github.com/user-attachments/assets/75b6d40a-34ad-4e55-9602-8a15444938cb" />
+
+
+
 
 
 
