@@ -76,17 +76,13 @@ low:
 <img width="1846" height="340" alt="Screenshot 2025-12-10 204616" src="https://github.com/user-attachments/assets/a1953e16-c570-492c-ba13-a1644d5ecec4" />
 <img width="1845" height="632" alt="Screenshot 2025-12-10 204341" src="https://github.com/user-attachments/assets/63f76180-277c-429b-8a04-c56ef1f98d0f" />
 
-ini merupakan bar chart dari tiap state beserta harga rata-rata in-state tuition dan out-of-state tuition
-<img width="1845" height="681" alt="Screenshot 2025-12-10 204310" src="https://github.com/user-attachments/assets/75b6d40a-34ad-4e55-9602-8a15444938cb" />
-
-ini merupakan pie chart dari pengelompokan public vs private university
-<img width="1845" height="359" alt="image" src="https://github.com/user-attachments/assets/72c2fd82-805c-4974-b2ca-904a7e809b89" />
-
-
 C. Visualisasi dan Agregasi Lainnya
 Bar Chart (Rata-rata Biaya Kuliah per State): Visualisasi menunjukkan variasi yang signifikan pada biaya kuliah rata-rata di berbagai Negara Bagian, membantu mengidentifikasi negara bagian dengan biaya pendidikan rata-rata tertinggi atau terendah.
+<img width="1845" height="681" alt="Screenshot 2025-12-10 204310" src="https://github.com/user-attachments/assets/75b6d40a-34ad-4e55-9602-8a15444938cb" />
 
 Pie Chart (Proporsi Universitas): Proporsi universitas Publik dan Swasta dalam dataset ditampilkan, memberikan konteks mengenai jenis institusi yang mendominasi data tersebut.
+
+<img width="1845" height="359" alt="image" src="https://github.com/user-attachments/assets/72c2fd82-805c-4974-b2ca-904a7e809b89" />
 
 IV. Kesimpulan Akhir
 Analisis ini berhasil mengidentifikasi empat universitas kunci yang menawarkan nilai terbaik di setiap segmen biaya. Temuan ini dapat digunakan oleh calon mahasiswa dan orang tua untuk:
