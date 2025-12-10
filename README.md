@@ -1,7 +1,9 @@
 # UAS-DAE
 
 C14220041-Andreas Harry
+
 C14220092-Amos Gihon
+
 Analisis Nilai Terbaik (Value-for-Money) Universitas
 
 Tujuan dari pengolahan data ini adalah untuk mencari universitas yang paling worth it didapatkan dari harga high maupun low dengan gradution rate yang tertinggi di range tersebut
