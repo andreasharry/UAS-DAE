@@ -15,7 +15,14 @@ Tingkat Kelulusan (Graduation Rate): Tingkat kelulusan yang tinggi di setiap kel
 
 Analisis ini bertujuan untuk menemukan universitas dengan Graduation Rate tertinggi di rentang biaya termurah dan termahal dari masing-masing kategori (High dan Low).
 
-II. Metodologi Pengolahan Data (KNIME Workflow)Pengolahan data dilakukan menggunakan platform KNIME Analytics, melalui langkah-langkah sebagai berikut:1. Pre-processing dan Klasifikasi BiayaNode Utama: Rule EngineAksi: Kolom biaya kuliah (in-state tuition dan out-of-state tuition) diklasifikasikan ke dalam dua kategori baru:HIGH: Jika biaya kuliah $\geq \$10.000$.LOW: Jika biaya kuliah $<\$10.000$.Tujuan: Membuat kriteria kategorisasi biaya yang jelas sesuai definisi "High" dan "Low" untuk memfasilitasi pencarian value-for-money.
+II. Metodologi Pengolahan Data (KNIME Workflow)
+Pengolahan data dilakukan menggunakan platform KNIME Analytics, melalui langkah-langkah sebagai berikut:
+1. Pre-processing dan Klasifikasi Biaya
+2. Node Utama: Rule Engine
+3. Aksi: Kolom biaya kuliah (in-state tuition dan out-of-state tuition) diklasifikasikan ke dalam dua kategori baru:
+   HIGH: Jika biaya kuliah >= $10.000.
+   LOW: Jika biaya kuliah <= $10.000.
+5. Tujuan: Membuat kriteria kategorisasi biaya yang jelas sesuai definisi "High" dan "Low" untuk memfasilitasi pencarian value-for-money.
 
 <img width="801" height="197" alt="image" src="https://github.com/user-attachments/assets/14d2c40a-58de-49a0-8b7d-99d33e7609a9" />
 
