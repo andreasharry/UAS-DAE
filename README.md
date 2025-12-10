@@ -88,7 +88,8 @@ Tujuan: Mengetahui komposisi (proporsi) jumlah universitas publik versus swasta 
 Pie Chart (Proporsi Universitas): Proporsi universitas Publik dan Swasta dalam dataset ditampilkan, memberikan konteks mengenai jenis institusi yang mendominasi data tersebut.
 <img width="1845" height="359" alt="image" src="https://github.com/user-attachments/assets/72c2fd82-805c-4974-b2ca-904a7e809b89" />
 
-IV. Kesimpulan Akhir
+
+III. Kesimpulan Akhir
 Analisis ini berhasil mengidentifikasi empat universitas kunci yang menawarkan nilai terbaik di setiap segmen biaya. Temuan ini dapat digunakan oleh calon mahasiswa dan orang tua untuk:
 
 Anggaran Tinggi: Jika anggaran tinggi, Amherst College adalah pilihan optimal untuk hasil kelulusan yang hampir pasti.
