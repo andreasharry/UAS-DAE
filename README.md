@@ -10,9 +10,7 @@ I. Tujuan Analisis
 Tujuan utama dari pengolahan data ini adalah untuk mengidentifikasi universitas yang menawarkan Nilai Terbaik (Value-for-Money) berdasarkan dua kriteria utama:
 
 Biaya Kuliah (Tuition Fee): Diklasifikasikan sebagai High (di atas $10.000) atau Low (di bawah $10.000).
-
 Tingkat Kelulusan (Graduation Rate): Tingkat kelulusan yang tinggi di setiap kelas biaya menunjukkan kualitas dan keberhasilan institusi.
-
 Analisis ini bertujuan untuk menemukan universitas dengan Graduation Rate tertinggi di rentang biaya termurah dan termahal dari masing-masing kategori (High dan Low).
 
 II. Metodologi Pengolahan Data (KNIME Workflow)
@@ -20,7 +18,9 @@ Pengolahan data dilakukan menggunakan platform KNIME Analytics, melalui langkah-
 1. Pre-processing dan Klasifikasi Biaya
 2. Node Utama: Rule Engine
 3. Aksi: Kolom biaya kuliah (in-state tuition dan out-of-state tuition) diklasifikasikan ke dalam dua kategori baru:
+   
    HIGH: Jika biaya kuliah >= $10.000.
+   
    LOW: Jika biaya kuliah <= $10.000.
 5. Tujuan: Membuat kriteria kategorisasi biaya yang jelas sesuai definisi "High" dan "Low" untuk memfasilitasi pencarian value-for-money.
 
