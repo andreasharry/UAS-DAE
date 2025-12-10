@@ -39,59 +39,59 @@ Pengolahan data dilakukan menggunakan platform KNIME Analytics, melalui langkah-
 
    Aksi:
 
-   Filtering: Data difilter berdasarkan kombinasi kategori biaya (High atau Low) dan apakah itu in-state atau out-of-state tuition.
+      Filtering: Data difilter berdasarkan kombinasi kategori biaya (High atau Low) dan apakah itu in-state atau out-of-state tuition.
 
-   Sorting: Data diurutkan secara Descending (Tertinggi ke Terendah) berdasarkan kolom Graduation Rate.
+      Sorting: Data diurutkan secara Descending (Tertinggi ke Terendah) berdasarkan kolom Graduation Rate.
 
-   Top-N Selection: Dari hasil sorting tersebut, nilai Graduation Rate tertinggi dipilih sebagai "Nilai Terbaik" di rentang biaya tersebut.
+      Top-N Selection: Dari hasil sorting tersebut, nilai Graduation Rate tertinggi dipilih sebagai "Nilai Terbaik" di rentang biaya tersebut.
 
    high:   
 
-   1.Siena Collage 10.800 10.800 (range harga high termurah dengan graduation rate tertinggi)
+      1.Siena Collage 10.800 10.800 (range harga high termurah dengan graduation rate tertinggi)
 
-   2.Amherst College 19.760 19.760 (range harga high termahal dengan graduation rate tertinggi)
+      2.Amherst College 19.760 19.760 (range harga high termahal dengan graduation rate tertinggi)
 <img width="1846" height="343" alt="Screenshot 2025-12-10 204623" src="https://github.com/user-attachments/assets/1dd10e27-1e76-4c42-8e58-95dbae04061f" />
 <img width="1847" height="644" alt="Screenshot 2025-12-10 204326" src="https://github.com/user-attachments/assets/8a8d415d-6ff3-4f2a-87cf-57f52c45fbd5" />
 
    low:
 
-   1.Missouri Southern State Collage 1920 3840 (range harga low termurah dengan graduation rate tertinggi)
+      1.Missouri Southern State Collage 1920 3840 (range harga low termurah dengan graduation rate tertinggi)
 
-   2.Cazenovia Collage 9384 9384 (range harga low termahal dengan graduation rate tertinggi)
+      2.Cazenovia Collage 9384 9384 (range harga low termahal dengan graduation rate tertinggi)
 <img width="1846" height="340" alt="Screenshot 2025-12-10 204616" src="https://github.com/user-attachments/assets/a1953e16-c570-492c-ba13-a1644d5ecec4" />
 <img width="1845" height="632" alt="Screenshot 2025-12-10 204341" src="https://github.com/user-attachments/assets/63f76180-277c-429b-8a04-c56ef1f98d0f" />
 
 
    3. Analisis Biaya Rata-Rata per Negara Bagian
 
-   Node Utama: GroupBy
+      Node Utama: GroupBy
 
-   Aksi: Data dikelompokkan berdasarkan kolom State, dan kemudian fungsi agregasi Mean (rata-rata) diterapkan pada kolom in-state tuition dan out-of-state tuition.
+      Aksi: Data dikelompokkan berdasarkan kolom State, dan kemudian fungsi agregasi Mean (rata-rata) diterapkan pada kolom in-state tuition dan out-of-state tuition.
 
-   Tujuan: Untuk mendapatkan biaya kuliah rata-rata per negara bagian. Hasil ini kemudian divisualisasikan menggunakan Bar Chart.
+      Tujuan: Untuk mendapatkan biaya kuliah rata-rata per negara bagian. Hasil ini kemudian divisualisasikan menggunakan Bar Chart.
 
-   Bar Chart (Rata-rata Biaya Kuliah per State):
+      Bar Chart (Rata-rata Biaya Kuliah per State):
    Visualisasi menunjukkan variasi yang signifikan pada biaya kuliah rata-rata di berbagai Negara Bagian, membantu mengidentifikasi negara bagian dengan biaya pendidikan rata-rata tertinggi atau terendah.
 <img width="1845" height="681" alt="Screenshot 2025-12-10 204310" src="https://github.com/user-attachments/assets/75b6d40a-34ad-4e55-9602-8a15444938cb" />
 
    4. Analisis Proporsi Jenis Universitas
 
-   Node Utama: GroupBy (dengan Count) dan Pie Chart
+      Node Utama: GroupBy (dengan Count) dan Pie Chart
 
-   Aksi: Data dikelompokkan berdasarkan jenis universitas (Public (1)/ Private (2)), dan dihitung jumlah (Count) masing-masing kelompok.
+      Aksi: Data dikelompokkan berdasarkan jenis universitas (Public (1)/ Private (2)), dan dihitung jumlah (Count) masing-masing kelompok.
 
-   Tujuan: Mengetahui komposisi (proporsi) jumlah universitas publik versus swasta dalam dataset. Hasil ini divisualisasikan menggunakan Pie Chart.
+      Tujuan: Mengetahui komposisi (proporsi) jumlah universitas publik versus swasta dalam dataset. Hasil ini divisualisasikan menggunakan Pie Chart.
 
-   Pie Chart (Proporsi Universitas): Proporsi universitas Publik dan Swasta dalam dataset ditampilkan, memberikan konteks mengenai jenis institusi yang mendominasi data tersebut.
+      Pie Chart (Proporsi Universitas): Proporsi universitas Publik dan Swasta dalam dataset ditampilkan, memberikan konteks mengenai jenis institusi yang mendominasi data tersebut.
 <img width="1845" height="359" alt="image" src="https://github.com/user-attachments/assets/72c2fd82-805c-4974-b2ca-904a7e809b89" />
 
 
 III. Kesimpulan Akhir
-Analisis ini berhasil mengidentifikasi empat universitas kunci yang menawarkan nilai terbaik di setiap segmen biaya. Temuan ini dapat digunakan oleh calon mahasiswa dan orang tua untuk:
+   Analisis ini berhasil mengidentifikasi empat universitas kunci yang menawarkan nilai terbaik di setiap segmen biaya. Temuan ini dapat digunakan oleh calon mahasiswa dan orang tua untuk:
 
-Anggaran Tinggi: Jika anggaran tinggi, Amherst College adalah pilihan optimal untuk hasil kelulusan yang hampir pasti.
+   Anggaran Tinggi: Jika anggaran tinggi, Amherst College adalah pilihan optimal untuk hasil kelulusan yang hampir pasti.
 
-Anggaran Rendah: Jika anggaran menjadi prioritas, Cazenovia College atau Missouri Southern State College menawarkan tingkat kelulusan yang baik dengan biaya yang jauh lebih rendah.
+   Anggaran Rendah: Jika anggaran menjadi prioritas, Cazenovia College atau Missouri Southern State College menawarkan tingkat kelulusan yang baik dengan biaya yang jauh lebih rendah.
 
 
 
