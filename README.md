@@ -19,7 +19,9 @@ II. Metodologi Pengolahan Data (KNIME Workflow)
 Pengolahan data dilakukan menggunakan platform KNIME Analytics, melalui langkah-langkah sebagai berikut:
 
 1. Pre-processing dan Klasifikasi Biaya
+
 Node Utama: Rule Engine
+
 Aksi: Kolom biaya kuliah (in-state tuition dan out-of-state tuition) diklasifikasikan ke dalam dua kategori baru:
    
    HIGH: Jika biaya kuliah >= $10.000.
