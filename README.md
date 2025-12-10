@@ -1,10 +1,6 @@
 # UAS-DAE
 
-C14220041-Andreas Harry
-
-C14220092-Amos Gihon
-
-Analisis Nilai Terbaik (Value-for-Money) Universitas
+C14220041-Andreas Harry & C14220092-Amos Gihon
 
 I. Tujuan Analisis
 
